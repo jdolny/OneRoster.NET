@@ -26,7 +26,7 @@ using (var ora = new OneRosterApi().V1p1("baseUrl", "consumerKey", "consumerSecr
 	//sync
 	var students = ora.StudentsManagement.GetAllStudents();
 	//async
-	var studentsAsync = ora.StudentsManagement.GetAllStudentsAsync();
+	var studentsAsync = await ora.StudentsManagement.GetAllStudentsAsync();
 	//raw
 	var studentsRaw = ora.StudentsManagement.GetAllStudentsRaw();
 }
@@ -39,7 +39,7 @@ using (var ora = new OneRosterApi().V1p2("tokenUrl","baseUrl", "clientId", "clie
 	//sync
 	var students = ora.StudentsManagement.GetAllStudents();
 	//async
-	var studentsAsync = ora.StudentsManagement.GetAllStudentsAsync();
+	var studentsAsync = await ora.StudentsManagement.GetAllStudentsAsync();
 	//raw
 	var studentsRaw = ora.StudentsManagement.GetAllStudentsRaw();
 }
