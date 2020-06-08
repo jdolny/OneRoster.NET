@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>OneRoster.NET</id>
+    <version>1.0.0</version>
+    <title>OneRoster.NET</title>
+    <authors>Theopenem</authors>
+    <owners>Theopenem</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/theopenem/OneRoster.NET</projectUrl>
+    <description>OneRoster API Client Library</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>OneRoster</tags>
+  </metadata>
+</package>
