@@ -41,6 +41,22 @@ namespace OneRoster.NET.SharedDtos
 
             TEACHER = 7,
 
+
+            COUNSELOR = 8,
+
+            
+            DISTRICTADMINISTRATOR = 9,
+
+
+            PRINCIPAL = 10,
+
+
+            SITEADMINISTRATOR = 11,
+
+
+            SYSTEMADMINISTRATOR = 12
+
+
         }
 
         public enum UserRoleRoleType
